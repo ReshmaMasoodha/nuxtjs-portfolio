@@ -1,0 +1,39 @@
+/* assets/main.css */
+
+/* Background and Text Color */
+body {
+  background-color: #FFFFFF; /* White background */
+  color: #142850; /* Dark Blue text color */
+}
+
+/* Navbar and Hero Section */
+.navbar {
+  background-color: #142850; /* Dark Blue */
+}
+
+.hero-section {
+  background-color: #00D9FF; /* Cyan */
+  color: #FFFFFF; /* White text */
+}
+
+/* Skills Section */
+.skills-section {
+  background-color: #f8f9fa; /* Light gray for contrast */
+  padding: 60px 0;
+}
+
+.section-title {
+  color: #142850; /* Dark Blue */
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.skill-item h5 {
+  color: #142850; /* Dark Blue */
+}
+
+.progress-bar {
+  background-color: #00D9FF; /* Cyan */
+  color: #FFFFFF; /* White text */
+}

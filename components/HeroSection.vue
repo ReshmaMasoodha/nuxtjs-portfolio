@@ -18,7 +18,7 @@ export default {
 <style scoped>
 .hero {
   height: 100vh;
-  background: url('C:\Users\laura\PersonalPortfolio\assets\codesnippet2.jpg') no-repeat center center/cover;
+  background: url('~\assets\codesnippet2.jpg') no-repeat center center/cover;
   color: white;
   display: flex;
   align-items: center;

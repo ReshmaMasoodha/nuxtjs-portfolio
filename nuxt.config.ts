@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
@@ -13,8 +12,15 @@ export default defineNuxtConfig({
     { src: '~/plugins/bootstrap.js', mode: 'client' }
   ],
 
-  // Set the base URL for GitHub Pages
+  // Set the base URL for GitHub Pages (This should match your repo name!)
   router: {
     base: '/nuxtjs-portfolio/'
+  },
+
+  // Tell Nuxt to output files to the docs folder
+  nitro: {
+    output: {
+      publicDir: 'docs'
+    }
   }
 })

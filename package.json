@@ -17,5 +17,8 @@
     "vue": "latest",
     "vue-router": "latest"
   },
-  "homepage": "https://username.github.io/repository-name"
+  "homepage": "https://username.github.io/repository-name",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }

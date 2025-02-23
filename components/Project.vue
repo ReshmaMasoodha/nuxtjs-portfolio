@@ -10,7 +10,7 @@
         <div class="projects-slider d-flex flex-nowrap overflow-auto">
           <!-- Example Project 1 -->
           <div class="card mb-4 shadow-sm project-item">
-            <img src="~\assets\home.jpg" class="card-img-top" alt="Project 1">
+            <img src="/images/home.jpg" class="card-img-top" alt="Project 1">
             <div class="card-body">
               <h5 class="card-title">Personal Portfolio Website</h5>
               <p class="card-text">
@@ -24,7 +24,7 @@
 
           <!-- Example Project 2 -->
           <div class="card mb-4 shadow-sm project-item">
-            <img src="@\assets\open.jpg" class="card-img-top" alt="Project 2">
+            <img src="/images/open.jpg" class="card-img-top" alt="Project 2">
             <!-- <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2"> -->
             <div class="card-body">
               <h5 class="card-title">Online Course Registration Website</h5>
@@ -39,7 +39,7 @@
 
           <!-- Example Project 3 -->
           <div class="card mb-4 shadow-sm project-item">
-            <img src="~\assets\tms.jpg" class="card-img-top" alt="Project 2">
+            <img src="/images/tms.jpg" class="card-img-top" alt="Project 2">
             <div class="card-body">
               <h5 class="card-title">Tourism Management System</h5>
               <p class="card-text">

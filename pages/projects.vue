@@ -111,11 +111,11 @@
 
 <script>
 
-import homeImage from '@/assets/home.jpg';
+import homeImage from '/images/home.jpg';
 
-import openImage from '@/assets/open.jpg';
+import openImage from '/images/open.jpg';
 
-import tmsImage from '@/assets/tms.jpg';
+import tmsImage from '/images/tms.jpg';
 
 export default {
   data() {

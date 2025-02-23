@@ -1,26 +1,28 @@
-export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
+﻿export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
     'bootstrap/dist/css/bootstrap.css',
-    '@fortawesome/fontawesome-free/css/all.min.css',	
+    '@fortawesome/fontawesome-free/css/all.min.css',
     '@/assets/main.css'
   ],
-  
+
   plugins: [
     { src: '~/plugins/bootstrap.js', mode: 'client' }
   ],
 
-  // Set the base URL for GitHub Pages (This should match your repo name!)
-  router: {
-    base: '/nuxtjs-portfolio/'
+  app: {
+   baseURL: process.env.NODE_ENV === 'production' ? '/nuxtjs-portfolio/' : '/', // ✅ Matches your repo name
+    buildAssetsDir: '_nuxt' // 🔹 Default is fine
   },
 
-  // Tell Nuxt to output files to the docs folder
   nitro: {
     output: {
-      publicDir: 'docs'
+      publicDir: 'docs' // ✅ Output folder for GitHub Pages
     }
+  },
+
+  routeRules: {
+    '/**': { prerender: true } // ✅ Ensures all pages are pre-rendered
   }
-})
+});

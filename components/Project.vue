@@ -24,7 +24,7 @@
 
           <!-- Example Project 2 -->
           <div class="card mb-4 shadow-sm project-item">
-            <img src="~\assets\open.jpg" class="card-img-top" alt="Project 2">
+            <img src="@\assets\open.jpg" class="card-img-top" alt="Project 2">
             <!-- <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project 2"> -->
             <div class="card-body">
               <h5 class="card-title">Online Course Registration Website</h5>

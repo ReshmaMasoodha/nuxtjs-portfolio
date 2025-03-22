@@ -3,7 +3,7 @@
 
   css: [
     'bootstrap/dist/css/bootstrap.css',
-    '@fortawesome/fontawesome-free/css/all.min.css',
+    '@fortawesome/fontawesome-free/css/all.min.css', // ✅ Font Awesome CSS
     '@/assets/main.css'
   ],
 

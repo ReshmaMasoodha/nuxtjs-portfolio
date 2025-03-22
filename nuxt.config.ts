@@ -12,14 +12,15 @@
   ],
 
   app: {
-   baseURL: process.env.NODE_ENV === 'production' ? '/nuxtjs-portfolio/' : '/', // ✅ Matches your repo name
+    baseURL: process.env.NODE_ENV === 'production' ? '/nuxtjs-portfolio/' : '/', // ✅ Matches your repo name
     buildAssetsDir: '_nuxt' // 🔹 Default is fine
   },
 
   nitro: {
     output: {
-      publicDir: 'docs' // ✅ Output folder for GitHub Pages
-    }
+      publicDir: 'docs', // ✅ Output folder for GitHub Pages
+    },
+    static: true, // ✅ Ensure static assets are copied to the output folder
   },
 
   routeRules: {

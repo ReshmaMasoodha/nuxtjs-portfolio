@@ -3,27 +3,27 @@
 
   css: [
     'bootstrap/dist/css/bootstrap.css',
-    '@fortawesome/fontawesome-free/css/all.min.css', // ✅ Font Awesome CSS
     '@/assets/main.css'
   ],
 
   plugins: [
-    { src: '~/plugins/bootstrap.js', mode: 'client' }
+    '~/plugins/bootstrap.js',
+    '~/plugins/fontawesome.js' // Add the Font Awesome plugin
   ],
 
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/nuxtjs-portfolio/' : '/', // ✅ Matches your repo name
-    buildAssetsDir: '_nuxt' // 🔹 Default is fine
+    baseURL: process.env.NODE_ENV === 'production' ? '/nuxtjs-portfolio/' : '/', // Matches your repo name
+    buildAssetsDir: '_nuxt'
   },
 
   nitro: {
     output: {
-      publicDir: 'docs', // ✅ Output folder for GitHub Pages
+      publicDir: 'docs',
     },
-    static: true, // ✅ Ensure static assets are copied to the output folder
+    static: true,
   },
 
   routeRules: {
-    '/**': { prerender: true } // ✅ Ensures all pages are pre-rendered
+    '/**': { prerender: true }
   }
 });

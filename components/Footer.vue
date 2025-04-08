@@ -9,7 +9,7 @@
               <i class="fas fa-envelope"></i>
             </a>
             <a href="https://github.com/ReshmaMasoodha" target="_blank" class="social-icon">
-              <i class="fab fa-github"></i>
+              <i class="fa-brands fa-github-square"></i>
             </a>
             <a href="https://in.linkedin.com/in/reshma-masoodha-9154142b6" target="_blank" class="social-icon">
               <i class="fab fa-linkedin"></i>

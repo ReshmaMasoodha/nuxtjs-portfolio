@@ -3,7 +3,8 @@
 
   css: [
     'bootstrap/dist/css/bootstrap.css',
-    '@/assets/main.css'
+    '@/assets/main.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   plugins: [

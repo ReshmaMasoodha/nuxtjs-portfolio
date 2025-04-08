@@ -4,7 +4,7 @@
       <h2 class="section-title text-center mb-5">Skills</h2>
       <div class="row">
         <div class="col-6 col-md-4 text-center mb-4" v-for="skill in skills" :key="skill.name">
-          <i :class="skill.icon + ' skill-icon'"></i>
+          <i :class="skill.icon + 'skill-icon'"></i>
           <p>{{ skill.name }}</p>
         </div>
       </div>

@@ -10,7 +10,7 @@
           <h3 class="text-center mb-3">Frontend Skills</h3>
         </div>
         <div class="col-md-3 text-center">
-          <i class="fab fa-html5 skill-icon"></i>
+          <i class="fab fa-html5"></i>
           <p>HTML5</p>
         </div>
         <div class="col-md-3 text-center">
